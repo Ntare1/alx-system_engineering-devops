@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+#using while and case statement
+x=0
+y=1
+while [ $x -le 12 ]
+do
+echo "Hour: $x"
+for ((y=1; y<60; y++))
+do
+echo $y
+done
+((x++))
+done

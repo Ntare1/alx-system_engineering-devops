@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#listing the contents of the current directory with modifications
+list=$(ls)
+for x in $list
+do
+echo "$x" | cut -d "-" -f 2
+done
