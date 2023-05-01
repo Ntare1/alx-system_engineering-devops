@@ -7,7 +7,7 @@ do
 echo "Hour: $x"
 for ((y=1; y<60; y++))
 do
-echo $y
+	echo "$y"
 done
 ((x++))
 done
