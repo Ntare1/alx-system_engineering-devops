@@ -1,8 +1,0 @@
-#!/usr/bin/env bash
-#until loop toptint sting multiple times
-x=0
-until [[ $x -eq 10 ]]
-do
-echo "Best School"
-((x++))
-done
